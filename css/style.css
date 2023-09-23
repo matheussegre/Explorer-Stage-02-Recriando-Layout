@@ -1,0 +1,102 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #828282;
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.2rem; /* 146.667% */
+}
+
+main {
+  width: 62.6rem;
+  height: 48.6rem;
+  margin: 6.4rem auto;
+  text-align: center;
+}
+main img {
+  width: 35rem;
+  height: 23.8rem;
+}
+main h1 {
+  margin-top: 3.2rem;
+  margin-bottom: 1.6rem;
+  color: #3F3D56;
+  text-align: center;
+  font-family: Dosis, sans-serif;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main h1 strong {
+  color: #EE24FF;
+}
+main p {
+  margin-top: 3.2rem;
+}
+main .texto {
+  width: 54rem;
+  height: 10.7rem;
+  margin: 0 auto;
+}
+main .texto p strong {
+  color: #3F3D56;
+  font-weight: 700;
+}
+main .texto p span {
+  color: #828282;
+  font-weight: 700;
+}
+main .texto p + p {
+  margin-top: 40px;
+}
+
+.line {
+  width: 568px;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+}
+footer .nav-camp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .nav-camp ul {
+  margin-top: 1.6rem;
+  margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  gap: 4.2rem;
+}
+footer .nav-camp ul li {
+  color: #3F3D56;
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.682%; /* 2.2152rem */
+}
+
+.wave {
+  display: flex;
+  margin-top: 40.83px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.wave img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
